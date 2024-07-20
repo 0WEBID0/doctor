@@ -7,7 +7,7 @@
 }
 
 .u-section-1 .u-group-elements-1 {
-  width: 408px;
+  width: 373px;
   min-height: 66px;
   height: auto;
   --animation-custom_in-translate_x: 0px;
@@ -25,7 +25,8 @@
 }
 
 .u-section-1 .u-text-2 {
-  margin: 1px 50px 0 0;
+  width: 358px;
+  margin: 1px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -36,6 +37,12 @@
 .u-section-1 .u-btn-2 {
   background-image: none;
   padding: 0;
+}
+
+@media (max-width: 1399px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -92,16 +99,16 @@
     margin-right: 0;
   }
 } .u-section-2 {
-  min-height: 2770px;
+  min-height: 2703px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 2750px;
+  padding: 0;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -119,7 +126,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   font-weight: 700;
   margin: 0 30px 0 auto;
 }
@@ -169,7 +176,7 @@
 }
 
 .u-section-2 .u-text-6 {
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   font-weight: 700;
   margin: 20px 30px 0 auto;
 }
@@ -228,7 +235,7 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 2750px;
+  min-height: 2663px;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -236,9 +243,10 @@
 }
 
 .u-section-2 .u-image-2 {
-  height: 348px;
+  height: 420px;
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .u-section-2 .u-text-12 {
@@ -253,9 +261,9 @@
 }
 
 .u-section-2 .u-group-elements-1 {
+  width: 100%;
   min-height: 30px;
   height: auto;
-  width: 100%;
   margin: 20px 0 0 auto;
 }
 
@@ -279,8 +287,7 @@
 .u-section-2 .u-group-elements-2 {
   min-height: 43px;
   height: auto;
-  margin-top: 26px;
-  margin-bottom: 0;
+  margin: 26px 175px 0 55px;
 }
 
 .u-section-2 .u-text-16 {
@@ -297,14 +304,13 @@
 
 .u-section-2 .u-text-17 {
   font-size: 1.125rem;
-  margin: 20px 0 0 179px;
+  margin: 20px 0 0;
 }
 
 .u-section-2 .u-group-elements-3 {
   min-height: 82px;
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin: 20px 175px 0 55px;
 }
 
 .u-section-2 .u-text-18 {
@@ -337,8 +343,8 @@
 .u-section-2 .u-group-elements-4 {
   min-height: 82px;
   height: auto;
-  margin-top: 33px;
-  margin-bottom: 0;
+  width: 100%;
+  margin: 33px 175px 0 55px;
 }
 
 .u-section-2 .u-text-22 {
@@ -366,9 +372,8 @@
 .u-section-2 .u-group-elements-5 {
   min-height: 82px;
   height: auto;
-  margin-top: 30px;
-  margin-bottom: 0;
-  width: 808px;
+  width: 934px;
+  margin: 30px 0 0 auto;
 }
 
 .u-section-2 .u-text-25 {
@@ -392,6 +397,63 @@
   background-image: none;
   font-weight: 700;
   padding: 0;
+}
+
+@media (max-width: 1399px) {
+   .u-section-2 {
+    min-height: 2770px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    margin-bottom: 20px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 2743px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-2 .u-text-6 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 2750px;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 348px;
+    width: auto;
+  }
+
+  .u-section-2 .u-group-elements-2 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-text-17 {
+    margin-left: 179px;
+  }
+
+  .u-section-2 .u-group-elements-3 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-group-elements-4 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-group-elements-5 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -427,11 +489,14 @@
 
   .u-section-2 .u-image-2 {
     height: 282px;
+    width: auto;
   }
 
   .u-section-2 .u-group-elements-2 {
     min-height: 82px;
     margin-top: 18px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-17 {
@@ -442,6 +507,8 @@
 
   .u-section-2 .u-group-elements-3 {
     margin-top: 18px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-19 {
@@ -462,6 +529,9 @@
 
   .u-section-2 .u-group-elements-4 {
     margin-top: 18px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-23 {
@@ -478,6 +548,8 @@
     min-height: 120px;
     margin-top: 19px;
     width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-26 {
@@ -514,6 +586,7 @@
 
   .u-section-2 .u-image-2 {
     height: 224px;
+    width: auto;
   }
 
   .u-section-2 .u-text-17 {
@@ -545,6 +618,8 @@
   .u-section-2 .u-group-elements-5 {
     margin-top: 20px;
     width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-26 {
@@ -579,14 +654,19 @@
 
   .u-section-2 .u-image-2 {
     height: 250px;
+    width: auto;
   }
 
   .u-section-2 .u-group-elements-2 {
     margin-top: 676px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-group-elements-3 {
     margin-top: 278px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-19 {
@@ -603,6 +683,9 @@
 
   .u-section-2 .u-group-elements-4 {
     margin-top: -1239px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-23 {
@@ -645,10 +728,13 @@
   .u-section-2 .u-image-2 {
     height: 173px;
     margin-top: 30px;
+    width: auto;
   }
 
   .u-section-2 .u-group-elements-2 {
     margin-top: 18px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-17 {
@@ -657,6 +743,8 @@
 
   .u-section-2 .u-group-elements-3 {
     margin-top: 18px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-19 {
@@ -676,6 +764,9 @@
 
   .u-section-2 .u-group-elements-4 {
     margin-top: 18px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-23 {
@@ -692,6 +783,8 @@
     min-height: 159px;
     margin-top: 18px;
     width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-26 {
