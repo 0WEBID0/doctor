@@ -43125,8 +43125,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-group-elements-1 {
-  width: 755px;
-  min-height: 31px;
+  width: 725px;
+  min-height: 30px;
   height: auto;
   margin: -61px 0 31px auto;
 }
@@ -43136,13 +43136,18 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 0 auto 0 0;
 }
 
+.u-header .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-header .u-icon-1 {
   margin-left: 10px;
 }
 
 .u-header .u-text-2 {
   font-size: 1.125rem;
-  margin: -29px 224px 0 auto;
+  margin: -28px 224px 0 auto;
 }
 
 .u-header .u-icon-2 {
@@ -43150,7 +43155,7 @@ a.u-link.u-text-hover-grey-90:hover {
   margin-left: 10px;
 }
 
-.u-header .u-btn-1 {
+.u-header .u-btn-2 {
   background-image: none;
   margin: -28px 0 0 auto;
   padding: 0;
@@ -43192,7 +43197,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 400;
 }
 
-.u-header .u-btn-2 {
+.u-header .u-btn-3 {
   --radius: 50px;
   background-image: none;
   margin: -41px 0 12px auto;
@@ -43200,10 +43205,15 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1399px) {
   .u-header .u-group-elements-1 {
+    width: 725px;
     margin-right: 0;
   }
 
-  .u-header .u-btn-1 {
+  .u-header .u-text-2 {
+    margin-top: -29px;
+  }
+
+  .u-header .u-btn-2 {
     margin-top: -28px;
   }
 }
@@ -43214,11 +43224,11 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-text-2 {
-    margin-top: -29px;
+    margin-top: -28px;
   }
 }
 @media (max-width: 1199px) {
-  .u-header .u-btn-2 {
+  .u-header .u-btn-3 {
     margin-top: 20px;
   }
 }
@@ -43262,7 +43272,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 24px;
   }
 
-  .u-header .u-btn-2 {
+  .u-header .u-btn-3 {
     margin: -39px auto 17px 569px;
   }
 }
@@ -43272,7 +43282,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-btn-2 {
+  .u-header .u-btn-3 {
     margin-top: -39px;
     margin-left: 389px;
   }
@@ -43299,7 +43309,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 19px;
   }
 
-  .u-header .u-btn-2 {
+  .u-header .u-btn-3 {
     margin-bottom: 12px;
     margin-left: 189px;
   }
@@ -43315,33 +43325,122 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-layout-cell-1 {
   background-image: none;
-  min-height: 471px;
+  min-height: 474px;
 }
 
 .u-footer .u-container-layout-1 {
-  padding: 20px;
+  padding: 20px 19px;
 }
 
 .u-footer .u-text-1 {
   font-weight: 700;
   font-size: 1.25rem;
-  margin: 0 1px 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .u-footer .u-text-2 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 1px 0 auto;
+}
+
+.u-footer .u-btn-1 {
+  padding: 0;
+}
+
+.u-footer .u-icon-1 {
+  margin-left: 5px;
 }
 
 .u-footer .u-text-3 {
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 20px 0 0 auto;
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 1px 0 auto;
+}
+
+.u-footer .u-btn-2 {
+  padding: 0;
+}
+
+.u-footer .u-icon-2 {
+  margin-left: 5px;
 }
 
 .u-footer .u-text-4 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 1px 0 auto;
+}
+
+.u-footer .u-btn-3 {
+  padding: 0;
+}
+
+.u-footer .u-icon-3 {
+  margin-left: 5px;
+}
+
+.u-footer .u-text-5 {
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 0 0 auto;
+}
+
+.u-footer .u-btn-4 {
+  padding: 0;
+}
+
+.u-footer .u-icon-4 {
+  margin-left: 5px;
+}
+
+.u-footer .u-text-6 {
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 1px 0 auto;
+}
+
+.u-footer .u-btn-5 {
+  padding: 0;
+}
+
+.u-footer .u-icon-5 {
+  margin-left: 5px;
+}
+
+.u-footer .u-text-7 {
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 1px 0 auto;
+}
+
+.u-footer .u-btn-6 {
+  padding: 0;
+}
+
+.u-footer .u-icon-6 {
+  margin-left: 5px;
+}
+
+.u-footer .u-text-8 {
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 1px 0 auto;
+}
+
+.u-footer .u-btn-7 {
+  padding: 0;
+}
+
+.u-footer .u-icon-7 {
+  margin-left: 5px;
 }
 
 .u-footer .u-layout-cell-2 {
@@ -43352,7 +43451,7 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 17px 20px;
 }
 
-.u-footer .u-text-5 {
+.u-footer .u-text-9 {
   font-weight: 700;
   font-size: 1.25rem;
   margin: 0 0 0 auto;
@@ -43370,22 +43469,22 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 0 0 0 auto;
 }
 
-.u-footer .u-text-6 {
+.u-footer .u-text-10 {
   font-size: 0.875rem;
   margin: -67px 90px 0 0;
 }
 
-.u-footer .u-btn-1 {
+.u-footer .u-btn-8 {
   transition-duration: 0.5s;
   padding: 0;
 }
 
-.u-footer .u-text-7 {
+.u-footer .u-text-11 {
   font-size: 0.75rem;
   margin: 5px 90px 0 0;
 }
 
-.u-footer .u-icon-1 {
+.u-footer .u-icon-8 {
   vertical-align: 0px;
 }
 
@@ -43404,22 +43503,22 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 0 0 0 auto;
 }
 
-.u-footer .u-text-8 {
+.u-footer .u-text-12 {
   font-size: 0.875rem;
   margin: -67px 90px 0 0;
 }
 
-.u-footer .u-btn-2 {
+.u-footer .u-btn-9 {
   transition-duration: 0.5s;
   padding: 0;
 }
 
-.u-footer .u-text-9 {
+.u-footer .u-text-13 {
   font-size: 0.75rem;
   margin: 5px 90px 0 0;
 }
 
-.u-footer .u-icon-2 {
+.u-footer .u-icon-9 {
   vertical-align: 0px;
 }
 
@@ -43431,13 +43530,13 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 20px;
 }
 
-.u-footer .u-text-10 {
+.u-footer .u-text-14 {
   font-weight: 700;
   font-size: 1.25rem;
   margin: 0 0 0 auto;
 }
 
-.u-footer .u-text-11 {
+.u-footer .u-text-15 {
   margin-left: auto;
   margin-right: 0;
   margin-bottom: 0;
@@ -43446,119 +43545,8 @@ a.u-link.u-text-hover-grey-90:hover {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
 }
 
-.u-footer .u-btn-3 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-footer .u-icon-3 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-12 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 5px 0 0 auto;
-}
-
-.u-footer .u-btn-4 {
-  padding: 0;
-}
-
-.u-footer .u-icon-4 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-13 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 5px 0 0 auto;
-}
-
-.u-footer .u-btn-5 {
-  padding: 0;
-}
-
-.u-footer .u-icon-5 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-14 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 5px 0 0 auto;
-}
-
-.u-footer .u-btn-6 {
-  padding: 0;
-}
-
-.u-footer .u-icon-6 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-15 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 5px 0 0 auto;
-}
-
-.u-footer .u-btn-7 {
-  padding: 0;
-}
-
-.u-footer .u-icon-7 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-16 {
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 20px 0 0 auto;
-}
-
-.u-footer .u-text-17 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 20px 0 0 auto;
-}
-
-.u-footer .u-btn-8 {
-  padding: 0;
-}
-
-.u-footer .u-icon-8 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-18 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 5px 0 0 auto;
-}
-
-.u-footer .u-btn-9 {
-  padding: 0;
-}
-
-.u-footer .u-icon-9 {
-  margin-left: 5px;
-}
-
-.u-footer .u-text-19 {
-  font-size: 0.875rem;
-  transition-duration: 0.5s;
-  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 5px 0 0 auto;
-}
-
 .u-footer .u-btn-10 {
+  background-image: none;
   padding: 0;
 }
 
@@ -43566,7 +43554,7 @@ a.u-link.u-text-hover-grey-90:hover {
   margin-left: 5px;
 }
 
-.u-footer .u-text-20 {
+.u-footer .u-text-16 {
   font-size: 0.875rem;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
@@ -43581,7 +43569,7 @@ a.u-link.u-text-hover-grey-90:hover {
   margin-left: 5px;
 }
 
-.u-footer .u-text-21 {
+.u-footer .u-text-17 {
   font-size: 0.875rem;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
@@ -43596,18 +43584,57 @@ a.u-link.u-text-hover-grey-90:hover {
   margin-left: 5px;
 }
 
+.u-footer .u-text-18 {
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 0 0 auto;
+}
+
+.u-footer .u-btn-13 {
+  padding: 0;
+}
+
+.u-footer .u-icon-13 {
+  margin-left: 5px;
+}
+
+.u-footer .u-btn-14 {
+  margin: 5px 0 0 auto;
+  padding: 0;
+}
+
+.u-footer .u-icon-14 {
+  margin-left: 5px;
+}
+
+.u-footer .u-text-19 {
+  font-size: 0.875rem;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: 5px 0 0 auto;
+}
+
+.u-footer .u-btn-15 {
+  padding: 0;
+}
+
+.u-footer .u-icon-15 {
+  margin-left: 5px;
+}
+
 .u-footer .u-layout-cell-4 {
   min-height: 474px;
 }
 
 .u-footer .u-container-layout-4 {
-  padding: 20px;
+  padding: 0 19px 20px;
 }
 
 .u-footer .u-image-3 {
-  width: 188px;
+  width: 189px;
   height: 94px;
-  margin: 0 0 0 auto;
+  margin: 0 0 0 124px;
 }
 
 .u-footer .u-logo-image-1 {
@@ -43615,26 +43642,54 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+.u-footer .u-text-20 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 3px 0 0 auto;
+}
+
+.u-footer .u-text-21 {
+  font-size: 0.875rem;
+  margin: 10px 1px 0 auto;
+}
+
+.u-footer .u-icon-16 {
+  margin-left: 15px;
+}
+
 .u-footer .u-text-22 {
   font-size: 0.875rem;
-  margin: 17px 0 0;
+  margin: 10px 1px 0 auto;
+}
+
+.u-footer .u-icon-17 {
+  margin-left: 15px;
 }
 
 .u-footer .u-text-23 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  margin: 10px 1px 0 auto;
 }
 
-.u-footer .u-icon-13 {
+.u-footer .u-icon-18 {
   margin-left: 15px;
 }
 
 .u-footer .u-text-24 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  margin: 20px 1px 0 auto;
 }
 
-.u-footer .u-icon-14 {
+.u-footer .u-icon-19 {
+  margin-left: 15px;
+}
+
+.u-footer .u-text-25 {
+  font-size: 0.875rem;
+  margin: 20px 1px 0 auto;
+}
+
+.u-footer .u-icon-20 {
   margin-left: 15px;
 }
 
@@ -43643,22 +43698,22 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 16px;
   width: 116px;
   min-width: 68px;
-  margin: 30px 0 0 auto;
+  margin: 20px 1px 0 auto;
 }
 
-.u-footer .u-icon-15 {
+.u-footer .u-icon-21 {
   height: 100%;
 }
 
-.u-footer .u-icon-16 {
+.u-footer .u-icon-22 {
   height: 100%;
 }
 
-.u-footer .u-icon-17 {
+.u-footer .u-icon-23 {
   height: 100%;
 }
 
-.u-footer .u-text-25 {
+.u-footer .u-text-26 {
   font-size: 0.875rem;
   margin: 20px auto 0;
 }
@@ -43667,12 +43722,32 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 565px;
   }
 
+  .u-footer .u-layout-cell-1 {
+    min-height: 386px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-footer .u-text-3 {
+    margin-right: 1px;
+  }
+
+  .u-footer .u-text-5 {
+    margin-right: 0;
+  }
+
+  .u-footer .u-text-6 {
+    margin-right: 1px;
+  }
+
   .u-footer .u-group-elements-1 {
     margin-right: initial;
     margin-left: initial;
   }
 
-  .u-footer .u-text-6 {
+  .u-footer .u-text-10 {
     margin-top: -67px;
   }
 
@@ -43680,13 +43755,47 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
   }
 
-  .u-footer .u-text-8 {
+  .u-footer .u-text-12 {
     margin-top: -67px;
   }
 
+  .u-footer .u-layout-cell-3 {
+    min-height: 65px;
+  }
+
+  .u-footer .u-layout-cell-4 {
+    min-height: 103px;
+  }
+
   .u-footer .u-image-3 {
+    width: 188px;
+    height: 94px;
     margin-right: 0;
     margin-left: 55px;
+  }
+
+  .u-footer .u-text-20 {
+    margin-right: 0;
+  }
+
+  .u-footer .u-text-21 {
+    margin-right: 1px;
+  }
+
+  .u-footer .u-text-22 {
+    margin-right: 1px;
+  }
+
+  .u-footer .u-text-23 {
+    margin-right: 1px;
+  }
+
+  .u-footer .u-text-24 {
+    margin-right: 1px;
+  }
+
+  .u-footer .u-text-25 {
+    margin-right: 1px;
   }
 }
 @media (max-width: 1199px) {
@@ -43695,11 +43804,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-1 {
-    min-height: 388px;
-  }
-
-  .u-footer .u-text-1 {
-    margin-right: 1px;
+    min-height: 318px;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -43707,18 +43812,18 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-3 {
-    min-height: 331px;
+    min-height: 54px;
   }
 
   .u-footer .u-layout-cell-4 {
-    min-height: 391px;
+    min-height: 85px;
   }
 
   .u-footer .u-image-3 {
-    width: 188px;
-    height: 94px;
+    width: 189px;
+    height: 95px;
     margin-right: 0;
-    margin-left: auto;
+    margin-left: 22px;
   }
 }
 @media (max-width: 991px) {
@@ -43741,17 +43846,13 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-3 {
-    min-height: 100px;
     order: 3;
+    min-height: 100px;
   }
 
   .u-footer .u-layout-cell-4 {
-    min-height: 100px;
     order: 1;
-  }
-
-  .u-footer .u-text-22 {
-    margin-left: auto;
+    min-height: 100px;
   }
 }
 @media (max-width: 767px) {
@@ -43772,16 +43873,12 @@ a.u-link.u-text-hover-grey-90:hover {
     font-size: 1rem;
   }
 
-  .u-footer .u-text-3 {
-    font-size: 1rem;
-  }
-
   .u-footer .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-footer .u-text-5 {
+  .u-footer .u-text-9 {
     font-size: 1rem;
   }
 
@@ -43796,11 +43893,7 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 10px;
   }
 
-  .u-footer .u-text-10 {
-    font-size: 1rem;
-  }
-
-  .u-footer .u-text-16 {
+  .u-footer .u-text-14 {
     font-size: 1rem;
   }
 
@@ -43809,7 +43902,11 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 10px;
   }
 
-  .u-footer .u-text-25 {
+  .u-footer .u-text-20 {
+    font-size: 1rem;
+  }
+
+  .u-footer .u-text-26 {
     margin-bottom: 60px;
   }
 }
@@ -43835,47 +43932,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-4 {
-    min-height: 358px;
     order: 0;
   }
 
-  .u-footer .u-text-25 {
+  .u-footer .u-text-26 {
     margin-bottom: 0;
   }
 }
-.u-footer .u-text-11, .u-footer .u-text-11:before, .u-footer .u-text-11 > .u-container-layout:before {
-    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
-}
-.u-footer .u-text-11.u-text-11.u-text-11:hover {
-    transform: translateX(-10px) translateY(0px) !important
-}
-.u-footer .u-text-11.u-text-11.u-text-11.hover {
-    transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-text-13, .u-footer .u-text-13:before, .u-footer .u-text-13 > .u-container-layout:before {
-    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
-}
-.u-footer .u-text-13.u-text-13.u-text-13:hover {
-    transform: translateX(-10px) translateY(0px) !important
-}
-.u-footer .u-text-13.u-text-13.u-text-13.hover {
-    transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-text-12, .u-footer .u-text-12:before, .u-footer .u-text-12 > .u-container-layout:before {
-    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
-}
-.u-footer .u-text-12.u-text-12.u-text-12:hover {
-    transform: translateX(-10px) translateY(0px) !important
-}
-.u-footer .u-text-12.u-text-12.u-text-12.hover {
-    transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-text-14, .u-footer .u-text-14:before, .u-footer .u-text-14 > .u-container-layout:before {
-    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
-}
-.u-footer .u-text-14.u-text-14.u-text-14:hover {
-    transform: translateX(-10px) translateY(0px) !important
-}
-.u-footer .u-text-14.u-text-14.u-text-14.hover {
-    transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-text-15, .u-footer .u-text-15:before, .u-footer .u-text-15 > .u-container-layout:before {
+.u-footer .u-text-15, .u-footer .u-text-15:before, .u-footer .u-text-15 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
 }
 .u-footer .u-text-15.u-text-15.u-text-15:hover {
@@ -43890,6 +43954,14 @@ a.u-link.u-text-hover-grey-90:hover {
     transform: translateX(-10px) translateY(0px) !important
 }
 .u-footer .u-text-17.u-text-17.u-text-17.hover {
+    transform: translateX(-10px) translateY(0px) !important
+} .u-footer .u-text-16, .u-footer .u-text-16:before, .u-footer .u-text-16 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-footer .u-text-16.u-text-16.u-text-16:hover {
+    transform: translateX(-10px) translateY(0px) !important
+}
+.u-footer .u-text-16.u-text-16.u-text-16.hover {
     transform: translateX(-10px) translateY(0px) !important
 } .u-footer .u-text-18, .u-footer .u-text-18:before, .u-footer .u-text-18 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
@@ -43907,26 +43979,66 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 .u-footer .u-text-19.u-text-19.u-text-19.hover {
     transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-text-20, .u-footer .u-text-20:before, .u-footer .u-text-20 > .u-container-layout:before {
+} .u-footer .u-btn-8, .u-footer .u-btn-8:before, .u-footer .u-btn-8 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+} .u-footer .u-btn-9, .u-footer .u-btn-9:before, .u-footer .u-btn-9 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+} .u-footer .u-text-4, .u-footer .u-text-4:before, .u-footer .u-text-4 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
 }
-.u-footer .u-text-20.u-text-20.u-text-20:hover {
+.u-footer .u-text-4.u-text-4.u-text-4:hover {
     transform: translateX(-10px) translateY(0px) !important
 }
-.u-footer .u-text-20.u-text-20.u-text-20.hover {
+.u-footer .u-text-4.u-text-4.u-text-4.hover {
     transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-text-21, .u-footer .u-text-21:before, .u-footer .u-text-21 > .u-container-layout:before {
+} .u-footer .u-text-8, .u-footer .u-text-8:before, .u-footer .u-text-8 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
 }
-.u-footer .u-text-21.u-text-21.u-text-21:hover {
+.u-footer .u-text-8.u-text-8.u-text-8:hover {
     transform: translateX(-10px) translateY(0px) !important
 }
-.u-footer .u-text-21.u-text-21.u-text-21.hover {
+.u-footer .u-text-8.u-text-8.u-text-8.hover {
     transform: translateX(-10px) translateY(0px) !important
-} .u-footer .u-btn-1, .u-footer .u-btn-1:before, .u-footer .u-btn-1 > .u-container-layout:before {
+} .u-footer .u-text-5, .u-footer .u-text-5:before, .u-footer .u-text-5 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
-} .u-footer .u-btn-2, .u-footer .u-btn-2:before, .u-footer .u-btn-2 > .u-container-layout:before {
+}
+.u-footer .u-text-5.u-text-5.u-text-5:hover {
+    transform: translateX(-10px) translateY(0px) !important
+}
+.u-footer .u-text-5.u-text-5.u-text-5.hover {
+    transform: translateX(-10px) translateY(0px) !important
+} .u-footer .u-text-2, .u-footer .u-text-2:before, .u-footer .u-text-2 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-footer .u-text-2.u-text-2.u-text-2:hover {
+    transform: translateX(-10px) translateY(0px) !important
+}
+.u-footer .u-text-2.u-text-2.u-text-2.hover {
+    transform: translateX(-10px) translateY(0px) !important
+} .u-footer .u-text-7, .u-footer .u-text-7:before, .u-footer .u-text-7 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-footer .u-text-7.u-text-7.u-text-7:hover {
+    transform: translateX(-10px) translateY(0px) !important
+}
+.u-footer .u-text-7.u-text-7.u-text-7.hover {
+    transform: translateX(-10px) translateY(0px) !important
+} .u-footer .u-text-3, .u-footer .u-text-3:before, .u-footer .u-text-3 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-footer .u-text-3.u-text-3.u-text-3:hover {
+    transform: translateX(-10px) translateY(0px) !important
+}
+.u-footer .u-text-3.u-text-3.u-text-3.hover {
+    transform: translateX(-10px) translateY(0px) !important
+} .u-footer .u-text-6, .u-footer .u-text-6:before, .u-footer .u-text-6 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-footer .u-text-6.u-text-6.u-text-6:hover {
+    transform: translateX(-10px) translateY(0px) !important
+}
+.u-footer .u-text-6.u-text-6.u-text-6.hover {
+    transform: translateX(-10px) translateY(0px) !important
 } 
 
 
