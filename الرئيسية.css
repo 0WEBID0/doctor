@@ -48,6 +48,10 @@
 }
 
 @media (max-width: 1399px) {
+  .u-section-1-1 .u-text-1 {
+    margin-left: auto;
+  }
+
   .u-section-1-1 .u-text-2 {
     font-size: 1.125rem;
   }
@@ -108,7 +112,7 @@
 
 @media (max-width: 575px) {
    .u-section-1-1 {
-    background-position: 50% 0%;
+    background-position: 12.36% 0%;
   }
 
   .u-section-1-1 .u-sheet-1 {
@@ -117,7 +121,7 @@
 
   .u-section-1-1 .u-text-1 {
     font-size: 1.5rem;
-    margin-top: 21px;
+    margin-top: 47px;
     margin-right: 0;
     margin-left: 126px;
   }
