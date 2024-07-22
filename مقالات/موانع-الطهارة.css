@@ -72,11 +72,20 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 101px;
+    min-height: 171px;
   }
 
   .u-section-1 .u-group-elements-1 {
-    width: 340px;
+    min-height: 51px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 } .u-section-2 {
   min-height: 2839px;
