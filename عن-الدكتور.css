@@ -381,12 +381,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1405px;
+    min-height: 1307px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: 27px;
-    margin-bottom: 1px;
+    margin-top: 26px;
+    margin-bottom: 26px;
   }
 
   .u-section-2 .u-image-1 {
@@ -842,4 +842,7 @@
   }
 }.rtl {
     direction: rtl
+}
+.center {
+	text-align-last: center;
 }
