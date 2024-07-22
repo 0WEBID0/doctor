@@ -112,11 +112,11 @@
 
 @media (max-width: 575px) {
    .u-section-1-1 {
-    background-position: 12.36% 0%;
+    background-position: 19.55% 0%;
   }
 
   .u-section-1-1 .u-sheet-1 {
-    min-height: 361px;
+    min-height: 376px;
   }
 
   .u-section-1-1 .u-text-1 {
@@ -129,6 +129,7 @@
   .u-section-1-1 .u-text-2 {
     font-size: 0.875rem;
     margin-top: 11px;
+    margin-left: 204px;
   }
 
   .u-section-1-1 .u-btn-1 {
@@ -537,11 +538,16 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 203px;
+    min-height: 261px;
   }
 
   .u-section-2 .u-list-1 {
-    margin-top: -117px;
+    margin-top: -42px;
+    margin-bottom: 13px;
+  }
+
+  .u-section-2 .u-repeater-1 {
+    min-height: 290px;
   }
 
   .u-section-2 .u-text-2 {
@@ -562,6 +568,10 @@
 
   .u-section-2 .u-text-10 {
     width: auto;
+  }
+
+  .u-section-2 .u-container-layout-6 {
+    padding-bottom: 14px;
   }
 
   .u-section-2 .u-text-12 {
@@ -993,6 +1003,10 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-4 {
+    background-position: 48.23% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 534px;
   }
@@ -1354,6 +1368,7 @@
 }
 
 .u-section-6 .u-text-3 {
+  font-size: 1.125rem;
   margin: 0 auto;
 }
 
@@ -1403,6 +1418,7 @@
 }
 
 .u-section-6 .u-text-6 {
+  font-size: 1.125rem;
   margin: 0 auto;
 }
 
@@ -1452,6 +1468,7 @@
 }
 
 .u-section-6 .u-text-9 {
+  font-size: 1.125rem;
   margin: 0 auto;
 }
 
@@ -1599,7 +1616,6 @@
 
   .u-section-6 .u-image-1 {
     margin-top: 10px;
-    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1607,7 +1623,6 @@
   .u-section-6 .u-group-1 {
     width: 40px;
     margin-top: -172px;
-    min-height: auto;
   }
 
   .u-section-6 .u-text-3 {
@@ -1626,7 +1641,6 @@
 
   .u-section-6 .u-image-2 {
     margin-top: 10px;
-    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1634,7 +1648,6 @@
   .u-section-6 .u-group-2 {
     width: 40px;
     margin-top: -172px;
-    min-height: auto;
   }
 
   .u-section-6 .u-text-6 {
@@ -1653,7 +1666,6 @@
 
   .u-section-6 .u-image-3 {
     margin-top: 10px;
-    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1661,7 +1673,6 @@
   .u-section-6 .u-group-3 {
     width: 40px;
     margin-top: -172px;
-    min-height: auto;
   }
 
   .u-section-6 .u-text-9 {
@@ -1681,3 +1692,7 @@
 .center {
 	text-align-last: center;
 }
+.u-popupmenu-items{
+	display: flex !important;
+    flex-direction: column-reverse !important;
+  }
