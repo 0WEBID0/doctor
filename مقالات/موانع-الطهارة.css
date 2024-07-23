@@ -218,8 +218,8 @@
 .u-section-2 .u-social-icons-1 {
   height: 32px;
   min-height: 16px;
-  width: 116px;
-  min-width: 68px;
+  width: 158px;
+  min-width: 94px;
   margin: 30px auto 0;
 }
 
@@ -232,6 +232,10 @@
 }
 
 .u-section-2 .u-icon-3 {
+  height: 100%;
+}
+
+.u-section-2 .u-icon-4 {
   height: 100%;
 }
 
@@ -552,7 +556,6 @@
 
   .u-section-2 .u-layout-cell-1 {
     order: 1;
-    min-height: 866px;
   }
 
   .u-section-2 .u-container-layout-1 {
